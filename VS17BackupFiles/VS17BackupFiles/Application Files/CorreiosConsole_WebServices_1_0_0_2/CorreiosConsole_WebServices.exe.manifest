@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CorreiosConsole_WebServices.exe" version="1.0.0.2" publicKeyToken="4114f4109254d723" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CorreiosConsole_WebServices" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CorreiosConsole_WebServices.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto UAC
+          Se desejar mudar o nível de Controle de Conta de Usuário do Windows, substitua o 
+          nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se deseja usar a Virtualização de Arquivos e Registro para compatibilidade 
+         com versões anteriores, exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CorreiosConsole_WebServices.exe" size="110984">
+      <assemblyIdentity name="CorreiosConsole_WebServices" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>8IwEmB6HvDVTZxUOzyc2d+NL4Fw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CorreiosConsole_WebServices.exe.config" size="789">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+34RzPYH8Sk1g/N9UIryx2Lyxxs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=RAPTOR\ejsil" issuerKeyHash="f74361dc0ca876e78a9ced1c32b98bfdb11583cc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>QD7Q74SwxcjVqO2vVvnk6Q7B/uU=</DigestValue></Reference></SignedInfo><SignatureValue>NzQkX4iCMoWA3lkyxp+yrQ+u0+FedWM/VCuVKqPDWHOXZ8uApVcpUWfe2eNAFr9HP1morjJoSH7wulHHyuw6tl8Md9eMzbuXNq7LKMwWFLXpO0NtR38Db/VbtSfdTCEzDA8BcjI95yy7d2tYvSx8o5wYhGhZxUGya6e69cx3ugY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uzt0VfuCDyA8nb83cZd38i8Hz7Y+keWsEeNC8F1bJ25tHKFjwa/ZJAjlhTl5TCaXqkCpVM6m/9DvRSiLUtmZRlSMX7APx8p5ELOtZH4IiCIRAo9fcuLQafMHwVRXYMf1XgDdfXCKPl23JjSycxdjTMMrwgwUXC8QVRksjQV70jE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e5fec10ee9e4f956afeda8d5c8c5b084efd03e40" Description="" Url=""><as:assemblyIdentity name="CorreiosConsole_WebServices.exe" version="1.0.0.2" publicKeyToken="4114f4109254d723" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=RAPTOR\ejsil</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>37wcmXRAQPZpiLWGIjZdauFVlDc=</DigestValue></Reference></SignedInfo><SignatureValue>jL3EI9WeMxNfiDRhUYD8e+UqHTsp9zjCZ8K/kV8FPpQogJaCEhs29Kg84xWrirjKtFeK3xXLPztF2nJH9K2uBRaUXpc6xTy2bkDdbW3u3vT5ELmi94NBz1Y/JrdsbvgF06zLZ4cmkVp5dEUx3w5H++QL36qxdgD56kkjAwROgD8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uzt0VfuCDyA8nb83cZd38i8Hz7Y+keWsEeNC8F1bJ25tHKFjwa/ZJAjlhTl5TCaXqkCpVM6m/9DvRSiLUtmZRlSMX7APx8p5ELOtZH4IiCIRAo9fcuLQafMHwVRXYMf1XgDdfXCKPl23JjSycxdjTMMrwgwUXC8QVRksjQV70jE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQFjEGp50zP4tK/zhIsXxrxjANBgkqhkiG9w0BAQUFADAjMSEwHwYDVQQDHhgAUgBBAFAAVABPAFIAXABlAGoAcwBpAGwwHhcNMTgwODExMTUyMjM3WhcNMTkwODExMjEyMjM3WjAjMSEwHwYDVQQDHhgAUgBBAFAAVABPAFIAXABlAGoAcwBpAGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALs7dFX7gg8gPJ2/N3GXd/IvB8+2PpHlrBHjQvBdWydubRyhY8Gv2SQI5YU5eUwml6pAqVTOpv/Q70Uoi1LZmUZUjF+wD8fKeRCzrWR+CIgiEQKPX3Li0GnzB8FUV2DH9V4A3X1wij5dtyY0snMXY0zDK8IMFFwvEFUZLI0Fe9IxAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAOj5+97aSlmeHaliEiu3oZwxBEb6Ao2H5B1Mk7O8xfTvSCxaD7DuetP0EP+m+HlxrdGEBSh7J8Rj2qZ/v3ja4P5adHFELUxQYCXgIlIr52Pjo1HDrJtIhgW9wBfjJWdg4DChhevkB/yIPhG7i+utgvuUbqDloejpX7XUmdmlZTaM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
